@@ -14,7 +14,7 @@
     <a-layout-content>
       <div :style="{ background: '#fff', padding: '24px', minHeight: '280px' }">
         <search></search>
-        <div>
+        <div class="address-card-wrapper">
           <card
             v-for="item of addressList"
             :key="item.address"
@@ -58,5 +58,13 @@ const addressList = ref(address);
 
 [data-theme="dark"] .site-layout-content {
   background: #141414;
+}
+.address-card-wrapper {
+  margin-top: 32px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  grid-template-rows: repeat(auto-fill, 100px);
+  justify-content: center;
+  grid-row-gap: 16px;
 }
 </style>

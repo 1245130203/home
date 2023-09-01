@@ -1,10 +1,16 @@
 <template>
   <a-card hoverable style="width: 264px" @click="jumpTo(item)">
     <template #cover>
-      <img class="icon" alt="example" :src="item.icon" />
+      <img
+        class="icon"
+        alt="example"
+        :src="
+          item.icon || 'http://23.105.192.99:58122/i/2023/09/01/12iaord.png'
+        "
+      />
     </template>
     <a-card-meta :title="item.title">
-      <template #description>{{ item.desc }}</template>
+      <template #description>{{ item.desc || item.title }}</template>
     </a-card-meta>
   </a-card>
 </template>
@@ -29,5 +35,6 @@ const jumpTo = function (item) {
   width: 48px;
   height: 48px;
   margin-left: 24px;
+  object-fit: contain;
 }
 </style>

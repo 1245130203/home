@@ -1,56 +1,68 @@
 [
   {
-    "icon": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
+    "icon": "https://turn.simonsen666.top/images/logo-text-vertical-grey.png",
+    "address": "https://turn.simonsen666.top",
+    "desc": "",
+    "title": "搬瓦工nginx"
+  },
+  {
+    "icon": "",
+    "address": "https://turn.simonsen666.top/chatgpt/",
+    "desc": "",
+    "title": "搬瓦工 xui"
+  },
+  {
+    "icon": "https://filebrowser.pi.simonsen666.top/static/img/logo.svg",
     "address": "https://filebrowser.pi.simonsen666.top/files/",
-    "desc": "test 111",
+    "desc": "",
     "title": "文件浏览器"
   },
   {
-    "icon": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
+    "icon": "",
     "address": "http://107.172.137.56:58911/xui/",
-    "desc": "test 111",
+    "desc": "",
     "title": "racknerd-xui"
   },
   {
-    "icon": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
-    "address": "https://filebrowser.pi.simonsen666.top/files/",
-    "desc": "test 111",
-    "title": "文件浏览器"
+    "icon": "https://homeassistant.simonsen666.top/static/icons/favicon-192x192.png",
+    "address": "https://homeassistant.simonsen666.top",
+    "desc": "",
+    "title": "智能家居"
   },
   {
-    "icon": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
-    "address": "https://filebrowser.pi.simonsen666.top/files/",
-    "desc": "test 111",
-    "title": "文件浏览器"
+    "address": "https://qinglong.pi.simonsen666.top/crontab",
+    "icon": "https://qn.whyour.cn/logo.png",
+    "desc": "",
+    "title": "青龙面板"
   },
   {
-    "icon": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
-    "address": "https://filebrowser.pi.simonsen666.top/files/",
-    "desc": "test 111",
-    "title": "文件浏览器"
+    "icon": "https://portainer.pi.simonsen666.top/2dcfc527d067d4ae3424.png",
+    "address": "https://portainer.pi.simonsen666.top/#!/auth",
+    "desc": "",
+    "title": "docker 管理面板"
   },
   {
-    "icon": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
-    "address": "https://filebrowser.pi.simonsen666.top/files/",
-    "desc": "test 111",
-    "title": "文件浏览器"
+    "address": "https://ng.pi.simonsen666.top/",
+    "icon": "https://ng.pi.simonsen666.top/images/logo-text-vertical-grey.png",
+    "desc": "",
+    "title": "pi nginx"
   },
   {
-    "icon": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
-    "address": "https://filebrowser.pi.simonsen666.top/files/",
-    "desc": "test 111",
-    "title": "文件浏览器"
+    "icon": "https://navidrome.pi.simonsen666.top/app/favicon-32x32.png",
+    "address": "https://navidrome.pi.simonsen666.top/",
+    "desc": "",
+    "title": "navidrome"
   },
   {
-    "icon": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
-    "address": "https://filebrowser.pi.simonsen666.top/files/",
-    "desc": "test 111",
-    "title": "文件浏览器"
+    "icon": "https://squoosh.pi.simonsen666.top/c/icon-demo-logo-326ed9b6.png",
+    "address": "https://squoosh.pi.simonsen666.top",
+    "desc": "",
+    "title": "squoosh"
   },
   {
-    "icon": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
-    "address": "https://filebrowser.pi.simonsen666.top/files/",
-    "desc": "test 111",
-    "title": "文件浏览器"
+    "icon": "http://23.105.192.99:58122/favicon.ico",
+    "address": "http://23.105.192.99:58122/index.php",
+    "desc": "",
+    "title": "图床"
   }
 ]
