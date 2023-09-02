@@ -52,11 +52,21 @@ const network = reactive({
   ipv6: 0,
   home: 0,
 });
+const handleAddress = () => {
+  addressList.value.forEach((item) => {
+    if (network.ipv6 === 200 && item.address_ipv6) {
+      item.address = item.address_ipv6;
+    } else if (network.home === 200 && item.address_home) {
+      item.address = item.address_home;
+    }
+  });
+};
 const handleCheckNetwork = async () => {
   const res = await checkNetwork();
   console.log("res111", res);
   network.ipv6 = res.ipv6;
   network.home = res.home;
+  handleAddress();
 };
 handleCheckNetwork();
 </script>

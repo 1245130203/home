@@ -13,7 +13,9 @@
   },
   {
     "icon": "https://filebrowser.pi.simonsen666.top/static/img/logo.svg",
-    "address": "https://filebrowser.pi.simonsen666.top/files/",
+    "address_ipv6": "https://filebrowser.pi.simonsen666.top/files/",
+    "address_home": "http://192.168.0.19:58181",
+    "address": "filebrowserpi.simonsen666.top",
     "desc": "",
     "title": "文件浏览器"
   },
